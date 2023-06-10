@@ -1,166 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://minecwu.me/">  
-    <title>Links website</title>
-    <style>
+<head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://minecwu.me/">  
+  <title>Links website</title>
+  <style>
+    body {
+      background: #232526;
+      background: -webkit-linear-gradient(to right, #414345, #232526);
+      background: linear-gradient(to right, #414345, #232526);
+    }
 
-      body {
-        background: #232526;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    .container {
+      width: 100%;
+      height: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .image {
+      background-image: url("https://i.redd.it/gn86a4u5ru021.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; 
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 0 auto;
+      border: 5px solid #fdf5e6;
+    }
+
+    a {
+      font-size: large;
+    }
+
+    .w3-border {
+      border: 3px solid #ccc !important;
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .links-container a {
+      width: 100%;
+      color: #414345 !important;
+      transition: 0.2s;
+    }
+
+    .links-container a:hover {
+      opacity: 1;
+    }
+
+    .profession {
+      margin-top: 15px !important;
+    }
+
+    .profession span {
+      font-size: 14px;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .icons a {
+      text-decoration: none;
+    }
+
+    .icons a svg {
+      fill: #fdf5e6 !important;
+      transform: scale(1);
+    }
+
+    .border {
+      border: 3px ridge #fdf5e6;
+    }
+
+    .contact {
+      text-align: center;
+      color: #fdf5e6;
+    }
+
+    .contact .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .contact .info span {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .bio {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    @media screen and (min-width: 768px) {
+      .link {
+        width: 100%;
       }
 
-        .container {
-          width: 100%;
-          height: 100%;
-          padding-right: 15px;
-          padding-left: 15px;
-          margin-right: auto;
-          margin-left: auto;
-        }
+      a {
+        font-size: x-large;
+      }
+    }
 
-        .image {
-          background-image: url("https://i.redd.it/gn86a4u5ru021.jpg");
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center; 
-          width: 200px;
-          height: 200px;
-          border-radius: 50%;
-          margin: 0 auto;
-          border: 5px solid #fdf5e6;
-        }
+    @media screen and (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
 
-        a {
-          font-size: large;
-        }
-
-        .w3-border {
-          border: 3px solid #ccc !important;
-        }
-
-        .links-container {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          gap: 20px;
-        }
-
-        .links-container a {
-          width: 100%;
-          color: #414345 !important;
-          transition: 0.2s;
-        }
-
-        .links-container a:hover {
-          opacity: 1;
-        }
-
-        .profession {
-          margin-top: 15px !important;
-        }
-
-        .profession span {
-          font-size: 14px;
-        }
-
-        .icons {
-          display: flex;
-          justify-content: center;
-          gap: 10px;
-        }
-
-        .icons a {
-          text-decoration: none;
-        }
-
-        .icons a svg {
-          fill: #fdf5e6 !important;
-          transform: scale(1);
-        }
-
-        .border {
-          border: 3px ridge #fdf5e6;
-        }
-
-        .contact {
-          text-align: center;
-          color: #fdf5e6;
-        }
-
-        .contact .info {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          gap: 15px;
-        }
-
-        .contact .info span {
-          display: flex;
-          align-items: center;
-          gap: 15px;
-        }
-
-        .bio {
-          font-size: 11px;
-          text-align: center;
-        }
-
-        @media screen and (min-width: 768px) {
-          .link {
-            width: 100%;
-          }
-
-          a {
-            font-size: x-large;
-          }
-
-        }
-        @media screen and (min-width: 576px) {
-          .container {
-            max-width: 540px;
-          }
-
-          .profession span {
-            font-size: 24px;
-          }
-          
-          .bio {
-            font-size: 15px;
-          }
-
-        }
-
-    </style>
-    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
-  </head>
-  <body>
-    <!-- Content container -->
-    <div class="container">
-
-      <!-- Image and name container -->
-      <div class="w3-margin-top" style="text-align: center">
-        <div class="image w3-round"></div>
-        <p class="profession"><span class="padding margin" style="font-weight: bolder; color: #fdf5e6">Mine<span style="color: #800000">CWU</span></span></p>
-        <p class="bio"><span class="padding margin" style="font-weight: bolder; color: #fdf5e6">hello there</span></p><br>
-      </div>
-
-      <!-- Links section 1 -->
-
-        <a href="#" target="_blank">
-          <i data-feather="github"></i>
- 
-      </div><br>
-
+      .profession span {
+        font-size: 24px;
+      }
+      
+      .bio {
+        font-size: 15px;
+      }
+    }
+  </style>
+  <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+</head>
+<body>
+  <!-- Content container -->
+  <div class="container">
+    <!-- Image and name container -->
+    <div style="text-align: center">
+      <div class="image"></div>
+      <p class="profession"><span style="font-weight: bolder; color: #fdf5e6">Mine<span style="color: #800000">CWU</span></span></p>
+      <p class="bio"><span style="font-weight: bolder; color: #fdf5e6">hello there</span></p>
     </div>
-    <script>
-      feather.replace()
-    </script>
-  </body>  
+
+    <!-- Links section 1 -->
+    <div class="links-container">
+      <a href="#" target="_blank">
+        <i data-feather="github"></i>
+        <span style="text-align: center">GitHub</span>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
 </html>
