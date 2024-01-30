@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--shipping index-->
+
+<html lang="en">
+    <head>
+        <title> Shipping </title>
+        <link rel="stylesheet" href=../styles/main.css>
+        <link rel="stylesheet" href=../styles/shipping.css>
+        <script src="../scripts/shipping.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="../images/FenderStratocaster.png" alt="Fender Stratocaster">
+            <h2>The Guitar Store</h2>
+            <h3>For rock stars everywhere!</h3>    
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../lessons/index.html">Lessons</a></li>
+                <li><a href="../products/index.html">Products</a></li>
+                <li><a href="../support/index.html">Support</a></li>
+                <li><a href="../shipping/index.html">Shipping</a></li>
+                <li><a href="../contact/index.html">Contact Us</a>
+                    <ul>
+                        <li><a href="../contact/email/index.html">Email</a></li>
+                        <li><a href="../contact/phone/index.html">Phone</a></li>
+                        <li><a href="../contact/livechat/index.html">Live Chat</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <form onsubmit="calculateShipping()">
+                <h2>Shipping Costs</h2>
+                <br>
+                <p>
+                    <label for="uInput">Enter the cost of the product:</label> 
+                    <input type="text" id="uInput" name="uInput">
+                    <button type="submit">Calculate</button>
+                </p>
+                <p>
+                    <label for="total">Total cost, including shipping:</label>
+                    <input readonly type="text" id="total" name="total">
+                </p>
+            </form>
+
+            <aside>
+                <ul>
+                    <li><a href="../products/guitars/index.html">Guitars</a></li>
+                    <li><a href="../products/basses/index.html">Basses</a></li>
+                    <li><a href="../products/drums/index.html">Drums</a></li>
+                    <li><a href="../products/keyboards/index.html">Keyboards</a></li>
+                </ul>
+            </aside> 
+        </main>
+
+        <footer>
+            <p>&copy; 2023 The Guitar Store<p>
+        </footer>
+    </body>
+</html>
+
