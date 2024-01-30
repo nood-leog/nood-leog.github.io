@@ -7,7 +7,7 @@ body{
     margin: 0 auto;
     background: white;
     border-style: solid solid solid solid;
-    box-shadow: 10px 10px 5px lightcoral, -10px 10px 5px lightcoral;
+    box-shadow: 10px 10px 5px #19543E, -10px 10px 5px #19543E;
     font-family: sans-serif;
 
 }
@@ -29,7 +29,7 @@ ul{
 header {
     padding: 15px;
     line-height: 5px;
-    background: linear-gradient(45deg, white 0%, lightcoral 25%, black 100%);
+    background: linear-gradient(45deg, white 0%, #19543E 25%, black 100%);
     border-bottom: 2px solid black;
 }
 header img{
@@ -175,7 +175,7 @@ footer{
     border-top:2px solid black;
     font-size: 90%;
     color: black;
-    background: linear-gradient(45deg, black 0%, lightcoral 25%, white 100%);
+    background: linear-gradient(45deg, black 0%, #19543E 25%, white 100%);
 }
 
 
