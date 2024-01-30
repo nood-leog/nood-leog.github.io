@@ -1,0 +1,182 @@
+html{
+    background-image: url("../images/guitarWallPaper.jpg");
+}
+
+body{
+    width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-style: solid solid solid solid;
+    box-shadow: 10px 10px 5px lightcoral, -10px 10px 5px lightcoral;
+    font-family: sans-serif;
+
+}
+
+/* the styles for unsorted lists of links */
+ul{
+    a:link{
+        color:#9b59b6;
+    }
+    a:visited{
+        color:#12395b;
+    }
+    a:hover{
+        color:#2880b9;
+    }
+}
+
+/* the styles for the header */
+header {
+    padding: 15px;
+    line-height: 5px;
+    background: linear-gradient(45deg, white 0%, lightcoral 25%, black 100%);
+    border-bottom: 2px solid black;
+}
+header img{
+    float:left;
+    width:80px;
+    padding-right:60px;
+}
+header h2 {
+    font-size: 200%;
+}
+header h3{
+    font-size: 125%;
+    padding-left: 9.25em;
+}
+
+/* the styles for the navigation menu */
+nav{
+    border-bottom: 2px solid black;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    width: 133.33px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: lightcoral;
+    font-weight: bold;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+nav > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* the styles for main */
+main{
+    margin: 0;
+}
+main h1{
+    margin: 0.5em;
+}
+
+main h2{
+    margin-top:0.8em;
+    margin-bottom: 0.5em;
+}
+main h3{
+    margin: 0.5em;
+}
+main p{
+    margin: 0.5em;
+}
+/* the styles for the aside */
+aside {
+    display: block;
+    float:left;
+    width: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+aside ul{
+    line-height: 150%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+aside ul li{
+    width:160px;
+    border: 2px solid black;
+    margin: 10px;
+}
+aside ul li a
+{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightcoral;
+    font-weight: bold;
+}
+
+/* the styles for the section */
+section{
+    float: right;
+    width:580px;
+    padding: 25px;
+    padding-top: 20px;
+}
+section h1{
+    font-size: 150%;
+    margin: 0.5em;
+}
+section h1::first-letter{
+    font-size:200%;
+}
+section h2{
+    font-size: 110%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    
+}
+section h3{
+    font-size: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+section p{
+    font-size: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+section img{
+    width:180px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* the styles for the footer */
+footer{
+    clear: both;
+    line-height: 5px;
+    padding: 15px;
+    text-align: center;
+    border-top:2px solid black;
+    font-size: 90%;
+    color: black;
+    background: linear-gradient(45deg, black 0%, lightcoral 25%, white 100%);
+}
+
+
+
