@@ -121,15 +121,25 @@ aside ul li{
     width:200px;
     border: 2px solid black;
     margin-bottom: 10px;
+    background-color: #19543E;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  /* Make the items stack vertically */
+    align-items: center;  /* Center items horizontally */
 }
 aside ul li a
 {
     padding: 10px;
     display: block;
-    text-align: center;
     text-decoration: none;
     background-color: #19543E;
     font-weight: bold;
+}
+aside ul img
+{
+    width: 200px;
 }
 
 /* the styles for the section */
