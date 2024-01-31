@@ -3,22 +3,21 @@ html{
 }
 
 body{
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
-    background: white;
+    background-image: url("../images/stone.jpg");
     border-style: solid solid solid solid;
     box-shadow: 10px 10px 5px #19543E, -10px 10px 5px #19543E;
-    font-family: sans-serif;
-
+    font-family: Courier;
 }
 
 /* the styles for unsorted lists of links */
 ul{
     a:link{
-        color:#9b59b6;
+        color: white;
     }
     a:visited{
-        color:#12395b;
+        color: white;
     }
     a:hover{
         color:#2880b9;
@@ -27,22 +26,24 @@ ul{
 
 /* the styles for the header */
 header {
+    text-shadow: 2px 2px 5px white;
     padding: 15px;
     line-height: 5px;
-    background: linear-gradient(45deg, white 0%, #19543E 25%, black 100%);
+    background: linear-gradient(45deg, #9b9895 0%, #19543E 75%, black 100%);
     border-bottom: 2px solid black;
 }
 header img{
     float:left;
-    width:80px;
-    padding-right:60px;
+    width:100px;
+    padding-right:50px;
+    padding-left:50px;
 }
 header h2 {
-    font-size: 200%;
+    font-size: 250%;
 }
 header h3{
-    font-size: 125%;
-    padding-left: 9.25em;
+    font-size: 135%;
+    padding-left: 12em;
 }
 
 /* the styles for the navigation menu */
@@ -60,11 +61,11 @@ nav ul li{
 }
 nav ul li a{
     display: block;
-    width: 133.33px;
+    width: 200px;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
-    background-color: lightcoral;
+    background-color: #19543E;
     font-weight: bold;
 }
 nav ul ul{
@@ -84,29 +85,31 @@ nav > ul::after {
 
 /* the styles for main */
 main{
-    margin: 0;
+    margin-bottom: 25px;
 }
 main h1{
-    margin: 0.5em;
+    margin-bottom: 25px;
 }
 
 main h2{
-    margin-top:0.8em;
-    margin-bottom: 0.5em;
+    
+    margin-bottom: 25px;
 }
 main h3{
-    margin: 0.5em;
+    margin-bottom: 25px;
 }
 main p{
-    margin: 0.5em;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 /* the styles for the aside */
 aside {
     display: block;
     float:left;
-    width: 160px;
+    width:200px;
+    padding: 25px;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 aside ul{
     line-height: 150%;
@@ -115,9 +118,9 @@ aside ul{
     padding: 0;
 }
 aside ul li{
-    width:160px;
+    width:200px;
     border: 2px solid black;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 aside ul li a
 {
@@ -125,45 +128,50 @@ aside ul li a
     display: block;
     text-align: center;
     text-decoration: none;
-    background-color: lightcoral;
+    background-color: #19543E;
     font-weight: bold;
 }
 
 /* the styles for the section */
 section{
+    text-shadow: 2px 2px 10px white;
+    font-weight: 600;
     float: right;
-    width:580px;
+    width:700px;
     padding: 25px;
     padding-top: 20px;
+    font-size: 150%;
 }
 section h1{
-    font-size: 150%;
-    margin: 0.5em;
+    font-size: 200%;
+    margin-top: 0px;
+    margin-left: 25px;
+    
 }
 section h1::first-letter{
     font-size:200%;
 }
 section h2{
     font-size: 110%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 0.5em;
     
+    margin-bottom: 25px;
+    margin-left: 25px;
+
 }
 section h3{
     font-size: 100%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    
+    margin-bottom: 25px;
 }
 section p{
     font-size: 100%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 section img{
     width:180px;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 25px;
 }
 
 /* the styles for the footer */
@@ -176,6 +184,10 @@ footer{
     font-size: 90%;
     color: black;
     background: linear-gradient(45deg, black 0%, #19543E 25%, white 100%);
+}
+footer img
+{
+    width: 50px;
 }
 
 
