@@ -117,7 +117,7 @@ ThemeData buildGruvboxDarkTheme()
       ),
     ),
     cardTheme: const CardThemeData(
-      color: Colors.grey,
+      color: GruvboxDark.bg1,
   elevation: 2,
     ),
 
