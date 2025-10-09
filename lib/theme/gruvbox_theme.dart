@@ -116,17 +116,11 @@ ThemeData buildGruvboxDarkTheme()
          textStyle: GoogleFonts.firaCode(fontWeight: FontWeight.w500),
       ),
     ),
-    cardTheme: CardTheme
-    (
-      elevation: 2,
-      color: GruvboxDark.bg1,
-       shape: RoundedRectangleBorder
-       (
-         borderRadius: BorderRadius.circular(8),
-         side: const BorderSide(color: GruvboxDark.bg3, width: 0.5),
-       ),
-       margin: const EdgeInsets.symmetric(vertical: 8.0),
+    cardTheme: const CardThemeData(
+      color: Colors.grey,
+  elevation: 2,
     ),
+
      listTileTheme: const ListTileThemeData
      (
         iconColor: GruvboxDark.aqua,
