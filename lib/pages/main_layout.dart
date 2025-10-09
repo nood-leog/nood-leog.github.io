@@ -77,7 +77,7 @@ class _MainLayoutState extends State<MainLayout>
               errorBuilder: (context, error, stackTrace) 
               {
                 // Display a placeholder icon on error
-                return Icon
+                return const Icon
                 (
                   Icons.image_not_supported_outlined, // Or another fallback icon
                   color: GruvboxDark.fg4,

@@ -19,27 +19,27 @@ class CvPage extends StatelessWidget
       child: ConstrainedBox
       (
         constraints: const BoxConstraints(maxWidth: 900),
-        child: SingleChildScrollView
+        child: const SingleChildScrollView
         (
-          padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 30.0),
+          padding: EdgeInsets.symmetric(horizontal: 24.0, vertical: 30.0),
           child: Column
           (
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>
             [
-              const HeroSection(),
-              const SizedBox(height: 40),
-              const AboutSection(),
-              const SizedBox(height: 40),
-              const EducationSection(), // <-- ADD EDUCATION SECTION HERE
-              const SizedBox(height: 40),
-              const ExperienceSection(),
-              const SizedBox(height: 40),
-              const SkillsSection(),
-              const SizedBox(height: 40),
-              const ContactSection(),
-              const SizedBox(height: 50),
-              const FooterSection(),
+              HeroSection(),
+              SizedBox(height: 40),
+              AboutSection(),
+              SizedBox(height: 40),
+              EducationSection(), // <-- ADD EDUCATION SECTION HERE
+              SizedBox(height: 40),
+              ExperienceSection(),
+              SizedBox(height: 40),
+              SkillsSection(),
+              SizedBox(height: 40),
+              ContactSection(),
+              SizedBox(height: 50),
+              FooterSection(),
             ],
           ),
         ),

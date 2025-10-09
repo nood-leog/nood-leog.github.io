@@ -82,7 +82,9 @@ ThemeData buildGruvboxDarkTheme()
       secondary: GruvboxDark.aqua,
       onSecondary: GruvboxDark.bg, // Text on secondary buttons
       error: GruvboxDark.red,
-      onError: GruvboxDark.bg, // Text on background
+      onError: GruvboxDark.bg,
+      background: GruvboxDark.bg,
+      onBackground: GruvboxDark.fg,
       surface: GruvboxDark.bg1, // Cards, dialogs background
       onSurface: GruvboxDark.fg, // Text on cards
       tertiary: GruvboxDark.yellow,

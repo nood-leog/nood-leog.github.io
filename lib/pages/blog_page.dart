@@ -19,7 +19,7 @@ class BlogPage extends StatelessWidget
           mainAxisAlignment: MainAxisAlignment.center,
           children: 
           [
-            Icon
+            const Icon
             (
               Icons.construction_rounded,
               size: 60,
