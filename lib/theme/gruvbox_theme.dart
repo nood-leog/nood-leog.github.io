@@ -118,7 +118,7 @@ ThemeData buildGruvboxDarkTheme()
          textStyle: GoogleFonts.firaCode(fontWeight: FontWeight.w500),
       ),
     ),
-    cardTheme: const CardThemeData(
+    cardTheme: const CardTheme(
       color: GruvboxDark.bg1,
   elevation: 2,
     ),
