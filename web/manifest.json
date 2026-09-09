@@ -1,11 +1,11 @@
 {
-    "name": "nood.dev",
-    "short_name": "nood.dev",
+    "name": "alexboyce.dev",
+    "short_name": "alexboyce.dev",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "nood.dev was built using flutter",
+    "description": "alexboyce.dev was built using flutter",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

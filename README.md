@@ -1,7 +1,7 @@
-# nood.dev
+# alexboyce.dev
 
-nood.dev built as a Flutter project
+alexboyce.dev built as a Flutter project
 
 Last updated April 2025
 
-Nood.dev is now Alexboyce.dev
+alexboyce.dev

@@ -34,10 +34,10 @@ class ContactSection extends StatelessWidget
   @override
   Widget build(BuildContext context) 
   {
-    const String email = 'alex@nood.dev';
+    const String email = 'alex@alexboyce.dev';
     const String githubUrl = 'https://github.com/nood-leog';
     const String linkedinUrl = 'https://linkedin.com/in/nood-leog';
-    // const String websiteUrl = 'https://nood.dev';
+    // const String websiteUrl = 'https://alexboyce.dev';
 
     return Column
     (

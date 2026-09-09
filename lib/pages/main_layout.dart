@@ -63,7 +63,7 @@ class _MainLayoutState extends State<MainLayout>
             //site name text
             Text
             (
-              'nood.dev',
+              'alexboyce.dev',
               style: textTheme.titleLarge?.copyWith(color: GruvboxDark.brightAqua),
             ),
             // Spacing between text and icon
