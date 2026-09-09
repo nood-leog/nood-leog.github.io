@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget
   {
     return MaterialApp 
     (
-      title: 'Nood.dev',
+      title: 'alexboyce.dev',
       theme: buildGruvboxDarkTheme(),
       debugShowCheckedModeBanner: false,
       //main_Layout is the home screen now
