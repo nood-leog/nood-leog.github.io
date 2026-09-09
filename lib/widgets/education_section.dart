@@ -17,6 +17,7 @@ class EducationSection extends StatelessWidget
         const SectionTitle('Education'),
         Card
         (
+          color: GruvboxDark.bg0_h,
           margin: const EdgeInsets.only(bottom: 16.0), // Add margin if needed
           child: Padding
           (
