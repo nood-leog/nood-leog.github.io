@@ -59,7 +59,7 @@ class ContactSection extends StatelessWidget
             _buildContactButton
             (
               context,
-              icon: Icons.email,
+              icon: FontAwesomeIcons.envelope,
               label: 'Email',
               tooltip: email,
               onPressed: () => _launchEmail(email),
@@ -89,7 +89,7 @@ class ContactSection extends StatelessWidget
 
   Widget _buildContactButton(BuildContext context, 
   {
-    required IconData icon,
+    required FaIconData icon,
     required String label,
     required String tooltip,
     required VoidCallback onPressed,
