@@ -61,6 +61,7 @@ class ExperienceSection extends StatelessWidget
   {
     return Card
     (
+      color: GruvboxDark.bg0_h,
       margin: const EdgeInsets.only(bottom: 20.0),
       child: Padding
       (
